@@ -29,7 +29,9 @@ footer {
     background-color: var(--footer-background);
 }
 
-
+section {
+    max-width: 500px;
+}
 
 #horse-container{
     width: 400px;
