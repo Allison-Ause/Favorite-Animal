@@ -5,6 +5,9 @@ const animalSection = document.getElementById('animal-section');
 
 const imageSelect = document.getElementById('image-select');
 const imageDisplay = document.getElementById('image-display');
+const nameInput = document.getElementById('name-input');
+const nameDisplay = document.getElementById('name-display');
+
 // set event listeners
     // get info from user input
     // use user input to update state
@@ -21,4 +24,8 @@ showAnswerButton.addEventListener('click', () => {
 imageSelect.addEventListener('change', () => {
     const src = 'assets/' + imageSelect.value;
     imageDisplay.src = src;
+});
+
+nameInput.addEventListener('input', () => {
+    nameDisplay.textContent = nameInput.value;
 });
