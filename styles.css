@@ -28,3 +28,17 @@ footer {
     justify-content: flex-end;
     background-color: var(--footer-background);
 }
+
+
+
+#horse-container{
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+    background: rgb(225,184,102);
+    font-size: 2rem;
+}
+
+#image-display {
+    width: 100%;
+}
