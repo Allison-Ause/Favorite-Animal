@@ -17,3 +17,20 @@
 1. Once we know the _why_ of elements, state, and events -- think about how to implement the "Why" as a "How"
 1. Think about how to **validate each of your features** according to a Definition of Done
 1. Consider what features **_depend_ on what other features**. Use this dependency logic to figure out what order to complete tasks.
+
+![Wireframe](wireframe.png)
+
+1. HTML ELEMENTS
+    - Headers
+    - Image x 3
+    - Labels for inputs
+    - Button
+1. EVENTS
+    - Checkbox checked or unchecked
+    -  Unhide Answer Button after checked
+    - Name Input open box form
+    - Image Select dropdown
+1. STATES
+    - Hidden (removed when checked)
+    - Disabled (checkbox)
+    
