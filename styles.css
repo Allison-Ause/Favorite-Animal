@@ -29,9 +29,6 @@ footer {
     background-color: var(--footer-background);
 }
 
-.hidden {
-    display: none;
-}
 section {
     max-width: 500px;
     class: hidden;
