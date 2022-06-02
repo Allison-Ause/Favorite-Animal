@@ -16,7 +16,53 @@
     </header>
 
     <main>
+            <h1>About Me</h1>
+            <section>
+                <h2>Intro</h2> 
+                <p>
+                    Oh wow do I love horses. There are so many amazing breeds, how could you pick just one? Go ahead and populate your stable and don't forget to give all your pretty ponies beautiful names!
+                </p>
+                <p>
+                    <label>
+                        <input id="tos-checkbox" type="checkbox">
+                        I accept these written terms of service, which include dedicating myself to the care and loving of horses both wild and domesticated. By checking this box I hereby solemnly swear to take this duty seriously.
+                    </label>
+                </p>
+                <p>
+                    What is my favorite animal?!
+                </p>
+                <p>
+                    <button id="show-answer-button" disabled>Reveal Answer</button>
+                </p>
+            </section>
 
+            <section id="animal-section" class="hidden">
+                <h2>A Horse :)</h2>
+
+                <div id="horse-container">
+                    <p>
+                        <img id="image-display" src="assets/black.jpeg">
+                        <p id="name-display">Buttercup</p>
+                    </p>
+                </div>
+
+                <h2>Select Your Mount</h2>
+                <p>
+                    <label>
+                        Choose Your Favorite:
+                        <select id="image-select">
+                            <option value="black.jpeg" selected>Black</option>
+                            <option value="palamino.jpeg">Palamino</option>
+                            <option value="white.jpeg">White</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Name Your Pony: <input id="name-input" value="Buttercup">
+                    </label>
+                </p>
+            </section>
     </main>
 
     <footer>&copy;2021 Aspiring Software Developer</footer>

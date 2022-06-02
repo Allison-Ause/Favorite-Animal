@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Hubballi', cursive;
-    background-color: var(--background);
+    background-color: rgb(222,225,182);
     padding-bottom: 30px;
 }
 
@@ -27,4 +27,25 @@ footer {
     display: flex;
     justify-content: flex-end;
     background-color: var(--footer-background);
+}
+
+.hidden {
+    display: none;
+}
+
+section {
+    max-width: 500px;
+    class: hidden;
+}
+
+#horse-container{
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+    background: rgb(225,184,102);
+    font-size: 2rem;
+}
+
+#image-display {
+    width: 100%;
 }
